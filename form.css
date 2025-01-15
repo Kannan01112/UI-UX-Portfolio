@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(146, 222, 208);
+ }
+
+ .navbar {
+  font-weight: bold;
+  text-align: center;
+  border-radius: 20px 20px 20px 20px;
+  width:fit-content;
+  background-color:transparent;
+  
+}
+
+#navitem{
+  background-color: rgb(222, 184, 135);
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+  border-radius: 40px 40px 40px 40px;
+}
+
+
+#navitem:hover {
+  background-color: rgb(124, 136,222);
+   font-weight: bolder;
+   font-size: larger;
+   text-align: center;
+   border-radius: 40px 40px 40px 40px;
+}
+
+.navbar-toggler{
+  background-color: rgb(222, 184, 135);
+  border-color: black;
+}
+
+#formbody{
+  border-style:double;
+  background-color: burlywood;
+}
+
+#submitbtn{
+  padding-left:30px;
+  padding-right: 30px;
+  font-size: larger;
+
+}
+

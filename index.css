@@ -1,0 +1,87 @@
+body {
+    background-image: url("/images/Hanoi.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    background-color: rgba(18, 84, 189, 0.178);
+    background-blend-mode: overlay;
+   } 
+
+
+#title1{
+   border-style:dotted;
+   margin-top: 100px;
+   margin-bottom: 30px;
+   padding-top: 20px;
+   background-color:rgba(255, 211, 150, 0.507);
+   color: rgba(240, 248, 255, 0.719);
+   border-radius: 50px 50px 50px 50px;
+   width:fit-content;
+   -webkit-text-fill-color: rgb(0, 0, 0);
+   -webkit-text-stroke: 1px;
+   height: 100px;
+   font-size: larger;
+   font-weight:bolder;
+   border-color: black;
+}
+
+.navbar {
+   font-weight: bold;
+   text-align: center;
+   border-radius: 20px 20px 20px 20px;
+   width:fit-content;
+   background-color:transparent;
+   
+   
+}
+
+.navbar-toggler{
+   background-color: rgb(255, 175, 68);
+   border-color: black;
+}
+
+#navitem{
+   background-color: rgba(255, 174, 68, 0.753);
+   font-weight: bolder;
+   text-align: center;
+   border-radius: 40px 40px 40px 40px;
+   font-size: larger;
+}
+
+
+#navitem:hover {
+   background-color: rgb(103, 161, 254);
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 40px 40px 40px 40px;
+}
+
+#linktitles{
+font-size:larger;
+background-color: rgba(125, 103, 72, 0.726);
+border-radius: 50px 50px 50px 50px;
+-webkit-text-fill-color: rgb(186, 186, 187);
+-webkit-text-stroke: 1px;
+border-style:ridge;
+text-align: center;
+height: auto;
+margin-top: 50px;
+}
+
+
+#hreflink{
+   color: rgba(255, 255, 255, 0.301);
+   font-size: larger;
+}
+#hreflink:hover{
+   color: rgb(33, 211, 255);
+
+}
+
+#footer{
+   color: white;
+   background-color: rgba(125, 103, 72, 0.507);
+   width: max-content;
+   position:absolute;
+   bottom:0;
+   height:auto;   
+}
